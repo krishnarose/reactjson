@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <>
-      <div className="bg-zinc-200 p-3 flex items-center justify-evenly shadow-xl">
+      <div className=" sticky top-0 bg-zinc-200 p-3 flex items-center justify-evenly shadow-xl">
         <div className="text-2xl text-black font-semibold">
           Json Data Display
         </div>
