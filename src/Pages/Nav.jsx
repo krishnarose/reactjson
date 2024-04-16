@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
+  
   return (
     <>
-      <div className=" sticky top-0 bg-zinc-200 p-3 flex items-center justify-evenly shadow-xl">
+      <div className=" sticky top-0  z-10 bg-zinc-200 p-3 flex items-center justify-evenly shadow-xl">
         <div className="text-2xl text-black font-semibold">
           Json Data Display
         </div>
@@ -19,6 +20,12 @@ const Nav = () => {
             {" "}
             <span className="bg-zinc-300 px-3 py-2 rounded-xl hover:bg-zinc-400">
              Shop
+            </span>
+          </Link>
+          <Link to={"/Wheather"}>
+            {" "}
+            <span className="bg-zinc-300 px-3 py-2 rounded-xl hover:bg-zinc-400">
+             Wheather
             </span>
           </Link>
         </div>
